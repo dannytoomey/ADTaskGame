@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0967199123E6263E00D42F43 /* expValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0967199023E6263E00D42F43 /* expValues.swift */; };
+		0967199323E6488700D42F43 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0967199223E6488700D42F43 /* Data.swift */; };
 		096B9854235D04B400C030DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096B9853235D04B400C030DD /* AppDelegate.swift */; };
 		096B9856235D04B400C030DD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 096B9855235D04B400C030DD /* GameScene.sks */; };
 		096B9858235D04B400C030DD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 096B9857235D04B400C030DD /* Actions.sks */; };
@@ -16,6 +18,10 @@
 		096B9861235D04B700C030DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096B985F235D04B700C030DD /* Main.storyboard */; };
 		096B986D235D04B700C030DD /* macOStestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096B986C235D04B700C030DD /* macOStestTests.swift */; };
 		096B9878235D04B700C030DD /* macOStestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096B9877235D04B700C030DD /* macOStestUITests.swift */; };
+		096B9886235D0AB000C030DD /* keyCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096B9885235D0AB000C030DD /* keyCodes.swift */; };
+		09A4EC4F23B17112007090ED /* Old.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A4EC4E23B17112007090ED /* Old.swift */; };
+		09DF614E23EA1DAB00D557BE /* Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09DF614C23EA1DAB00D557BE /* Data.xcdatamodeld */; };
+		09E180A423A704B10033F230 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E180A323A704B10033F230 /* Objects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0967199023E6263E00D42F43 /* expValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expValues.swift; sourceTree = "<group>"; };
+		0967199223E6488700D42F43 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		096B9850235D04B400C030DD /* macOStest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOStest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		096B9853235D04B400C030DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		096B9855235D04B400C030DD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -52,6 +60,10 @@
 		096B9873235D04B700C030DD /* macOStestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOStestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		096B9877235D04B700C030DD /* macOStestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOStestUITests.swift; sourceTree = "<group>"; };
 		096B9879235D04B700C030DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096B9885235D0AB000C030DD /* keyCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyCodes.swift; sourceTree = "<group>"; };
+		09A4EC4E23B17112007090ED /* Old.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Old.swift; sourceTree = "<group>"; };
+		09DF614D23EA1DAB00D557BE /* Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Data.xcdatamodel; sourceTree = "<group>"; };
+		09E180A323A704B10033F230 /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,11 +118,17 @@
 				096B9855235D04B400C030DD /* GameScene.sks */,
 				096B9857235D04B400C030DD /* Actions.sks */,
 				096B9859235D04B400C030DD /* GameScene.swift */,
+				0967199223E6488700D42F43 /* Data.swift */,
+				09DF614C23EA1DAB00D557BE /* Data.xcdatamodeld */,
+				09E180A323A704B10033F230 /* Objects.swift */,
+				0967199023E6263E00D42F43 /* expValues.swift */,
 				096B985B235D04B400C030DD /* ViewController.swift */,
 				096B985D235D04B700C030DD /* Assets.xcassets */,
 				096B985F235D04B700C030DD /* Main.storyboard */,
 				096B9862235D04B700C030DD /* Info.plist */,
 				096B9863235D04B700C030DD /* macOStest.entitlements */,
+				096B9885235D0AB000C030DD /* keyCodes.swift */,
+				09A4EC4E23B17112007090ED /* Old.swift */,
 			);
 			path = macOStest;
 			sourceTree = "<group>";
@@ -196,7 +214,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Danny Toomey";
 				TargetAttributes = {
 					096B984F235D04B400C030DD = {
@@ -266,8 +284,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				096B985C235D04B400C030DD /* ViewController.swift in Sources */,
+				0967199123E6263E00D42F43 /* expValues.swift in Sources */,
+				09E180A423A704B10033F230 /* Objects.swift in Sources */,
+				096B9886235D0AB000C030DD /* keyCodes.swift in Sources */,
+				09DF614E23EA1DAB00D557BE /* Data.xcdatamodeld in Sources */,
 				096B985A235D04B400C030DD /* GameScene.swift in Sources */,
 				096B9854235D04B400C030DD /* AppDelegate.swift in Sources */,
+				09A4EC4F23B17112007090ED /* Old.swift in Sources */,
+				0967199323E6488700D42F43 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = macOStest/macOStest.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = macOStest/Info.plist;
@@ -450,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = macOStest/macOStest.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = macOStest/Info.plist;
@@ -583,6 +609,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09DF614C23EA1DAB00D557BE /* Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09DF614D23EA1DAB00D557BE /* Data.xcdatamodel */,
+			);
+			currentVersion = 09DF614D23EA1DAB00D557BE /* Data.xcdatamodel */;
+			path = Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 096B9848235D04B400C030DD /* Project object */;
 }
